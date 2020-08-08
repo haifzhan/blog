@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <AddBlog msg="Add a new blog"/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import AddBlog from './components/AddBlog.vue'
 
 export default {
   name: 'App',
   components: {
-    AddBlog
+
   }
 }
 </script>
